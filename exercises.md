@@ -29,9 +29,9 @@ No math required — explain conceptually:
 
 ## Part 2 — Core Coding (Cá nhân)
 
-Implement all TODOs in `template.py`. `Document` dataclass và `chunk_fixed_size` đã được implement sẵn làm ví dụ — đọc kỹ để hiểu pattern trước khi implement phần còn lại.
+Implement all TODOs in `solution/solution.py`. `Document` dataclass và `chunk_fixed_size` đã được implement sẵn làm ví dụ — đọc kỹ để hiểu pattern trước khi implement phần còn lại.
 
-Copy to `solution/solution.py` when done. Run `pytest tests/` to check progress.
+Run `pytest tests/` to check progress.
 
 ### Checklist
 - [x] `Document` dataclass — ĐÃ IMPLEMENT SẴN

@@ -17,7 +17,7 @@ Sau lab này, bạn cần có thể:
 
 ### Pha 1 — Cá Nhân: Hoàn Thành solution.py
 
-Mỗi sinh viên **tự mình** hoàn thành tất cả TODO trong `template.py`. `Document` dataclass và `chunk_fixed_size` đã được implement sẵn làm ví dụ.
+Mỗi sinh viên **tự mình** hoàn thành tất cả TODO trong `solution/solution.py`. `Document` dataclass và `chunk_fixed_size` đã được implement sẵn làm ví dụ.
 
 ### Pha 2 — Nhóm: So Sánh Retrieval Strategy
 
@@ -44,8 +44,8 @@ cp .env.example .env
 ```
 ├── README.md              ← Bạn đang đọc file này
 ├── exercises.md           ← Bài tập (4 phần)
-├── template.py            ← Code khung (điền TODO)
-├── solution/              ← Copy solution.py vào đây khi xong
+├── solution/
+│   └── solution.py        ← Code khung (điền TODO)
 ├── data/                  ← Tài liệu mẫu + tài liệu nhóm (.txt/.md)
 ├── tests/
 │   └── test_solution.py   ← Test suite (30+ tests)
@@ -109,7 +109,7 @@ Xem chi tiết tại `SCORING.md`. Tóm tắt:
 
 ## Sản Phẩm Nộp Bài
 
-1. `solution/solution.py` — triển khai cá nhân
+1. `solution/solution.py` — hoàn thành tất cả TODO
 2. `report/TEMPLATE_REPORT.md` — một báo cáo/sinh viên (gồm cả phần nhóm và cá nhân)
 
 ---

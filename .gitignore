@@ -11,9 +11,6 @@ __pycache__/
 # OS
 .DS_Store
 
-# Solution (students submit separately)
-solution/solution.py
-
 # IDE
 .vscode/
 .idea/
