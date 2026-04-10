@@ -125,6 +125,7 @@ chunks = chunker.chunk(document_text)
 |Tăng | SentenceChunker (3 sent/chunk) | 8.9 | Giữ instructions trọn vẹn, semantic units | Chunks không đều (refund: 277 chars, escalation: 387 chars) |
 | Quân | RecursiveChunker (chunk_size=420) | 7/10 | Giữ được ngữ cảnh theo section và bullet khá tốt, hợp tài liệu support có cấu trúc rõ ràng | Nếu query quá mơ hồ hoặc quá ngắn thì đôi lúc chunk top-1 vẫn lệch sang tài liệu gần nghĩa hơn |
 | Minh | RecursiveChunker | 6/10 (proxy nội bộ) | Giữ context tốt, phù hợp với tài liệu có section, steps và internal notes | Tạo nhiều chunk hơn và chưa vượt trội rõ rệt về điểm số khi chỉ dùng _mock_embed |
+Khôi | RecursiveChunker | 8.5/10 | Giữ được ngữ cảnh theo section và bullet tốt, phù hợp cấu trúc doc. | Đôi lúc tạo ra chunk hơi nhiều, cần cấu hình độ dài cẩn thận. |
 
 **Strategy nào tốt nhất cho domain này?**
 > Với dataset support và playbook, FixedSizeChunker là chiến lược tốt vì nó phân chia đều, giữ overlap và không phụ thuộc cấu trúc câu. Điều này giúp hệ thống retrieval tìm phần nội dung liên quan mà không bị lệ thuộc quá nhiều vào định dạng văn bản.
